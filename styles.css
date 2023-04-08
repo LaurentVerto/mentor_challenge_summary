@@ -12,14 +12,14 @@ body{
 }
 
 .container {
-    border: 1px solid red;
     border-radius: 20px;
     display: flex;
+    width: 70%;
+    box-shadow: 10px 10px 20px rgba(73, 57, 218, 0.15);
 }
 
 .left {
-    border: 2px solid green;
-    width: 40%;
+    width: 50%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -53,4 +53,88 @@ body{
 
 .tam {
     opacity: 70%;
+}
+
+/* end left part */
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+h1 {
+    font-size: 1.1em;
+}
+
+.title_right {
+    width: 80%;
+}
+
+.skills {
+    width: 80%;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+.title_skills{
+    display: flex;
+    align-items: center;
+}
+
+.title_skills img {
+    margin-right: 10px;
+}
+
+.reaction {
+    background-color:#fff6f5 ; 
+}
+
+.memory {
+    background-color: #fffbf2;
+}
+
+.verbal {
+    background-color: #f2fafa;
+}
+
+.visual {
+    background-color: #f2f2ff;
+}
+
+.reaction_title {
+    color:#db6664;
+    font-weight: bold;
+}
+.memory_title {
+    color:#edb23f ;
+    font-weight: bold;
+}
+.verbal_title {
+    color:#63c5af ;
+    font-weight: bold;
+}
+.visual_title {
+    color:#39419c ;
+    font-weight: bold;
+}
+
+button {
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:#303b59 ;
+    color: white;
+}
+
+button:hover{
+    background: linear-gradient(rgb(101, 66, 254),rgb(57, 48, 237)) ;
 }
