@@ -1,8 +1,17 @@
+@font-face {
+    font-family: challenge;
+    src: url(font/HankenGrotesk-VariableFont_wght.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: challenge;
 }
+
+
+
 
 body{
     display: flex;
